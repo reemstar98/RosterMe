@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script type="text/javascript">
+    function processData(f1,f2,f3,f4,f5){
+        var v1 = document.getElementById(f1).value;
+        var v2 = document.getElementById(f2).value;
+        var v3 = document.getElementById(f3).value;
+        var v4 = document.getElementById(f4).value;
+        var v5 = document.getElementById(f5).value;
+        alert(v1+"\n"+v2+"\n"+v3+"\n"+v4+"\n"+v5);
+        //use Ajax-php to send the values to server storage
+        //Ajax-PHP developphp.com/view.php?tid=1185
+        
+    //https://stackoverflow.com/questions/7449767/how-do-i-send-an-html-form-in-an-email-not-just-mailto 
+
+    }
+    
+    </script>
+    </head>
+<body>
+    <h2> My Form</h2>
+    
+    Date: <input type="date" name="field1" id="field1"/>
+    <br> 
+    datetime: <input type="datetime-local" name="field2" id="field2"/>
+    <br> 
+    month: <input type="month" name="field3" id="field3"/>
+    <br> 
+    week: <input type="week" name="field4" id="field4"/>
+    <br> 
+    time: <input type="time" name="field5" id="field5"/>
+    <br> 
+    
+    <input type="button" onClick="processData ('field1','field2','field3','field4','field5)" value="Submit"/>
+    </body>
+</html>

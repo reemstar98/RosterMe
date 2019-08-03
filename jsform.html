@@ -1,0 +1,64 @@
+<html>
+<head>
+    
+    <title>Form Example</title>
+    <script LANGUAGE="JavaScript" type="text/javascript">
+        function validate() {
+            if (document.form1.yourname.value.length < 1) {
+                alert("Please enter your full name.");
+                return false;
+            }
+            
+           
+            if (document.form1.address.value.length < 3) {
+                alert("Please enter your address.");
+                return false;
+            }
+            
+            if (document.form1.phone.value.length < 3) {
+                alert("Please enter your phone number.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <!--//http://www.informit.com/articles/article.aspx?p=30105&seqNum=6-->
+    <h1>Form Example</h1>
+        <p>Enter the following information. When you press the Submit button,the data you entered will be validated, then sent by email.</p>
+    
+    <form name="form1" action="mailto:reema.bali@outlook.com" enctype="text/plain" method="POST" onSubmit="return validate();">
+        <p><b>Name:</b> <input type="TEXT" size="20" name="yourname ">
+        </p>
+        
+<!-- The week input-->
+        
+        <p><b> Week: </b><input type="WEEK" name="theweek" />
+        </p> 
+        
+<!-- days of the week schedual input-->
+    <section id="days">
+        <p><b>Monday: </b><input type="time" name="Monday" />
+        </p>
+        <p><b>Tuesday: </b><input type="time" name="Tuesday" />
+        </p>
+        <p><b>Wednesday: </b><input type="time" name="Wednesday" />
+        </p>
+        <p><b>Thursday: </b><input type="time" name="Thursday" />
+        </p>
+        <p><b>Friday: </b><input type="time" name="Friday" />
+        </p>
+        <p><b>Saturday: </b><input type="time" name="Saturday" />
+        </p>
+        <p><b>Sunday: </b><input type="time" name="Sunday" />
+        </p>
+    </section>
+    
+      
+        
+        <p>  <input TYPE="SUBMIT" VALUE="Submit"></p>
+    
+    </form>
+</body>
+</html>
