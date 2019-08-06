@@ -1,0 +1,86 @@
+*{margin: 0; padding: 0}
+
+.loginpage{
+    background-color: gainsboro;
+    padding: 5em;
+}
+
+/*This is all the design for the login page*/
+.form-container{
+    width: 250px;
+    height:auto;
+    padding:40px 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    margin: auto;
+}
+
+.company-logo{
+    background:url('') no repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 100%;
+    position:absolute;
+    top:-40px;
+    left: 110px;
+    
+}
+
+ul.list{
+    list-style-type: none;
+    text-align: center;   
+}
+
+ul.list li{
+    width:250px;
+    margin-bottom: 15px;
+}
+
+ul.list li input{
+    width: 250px;
+    text-align: center;
+    padding: 8px 0px;
+    border: none;
+    background-color: #d3d3d3; 
+    border-radius: 5px;
+}
+
+ul.list li input[type="button"]{
+    background-color: dodgerblue;
+}
+
+ul.list li:nth-child(5){
+    color: red;
+}
+
+/*This is all the design for the Timetable page*/
+.timetable{
+    width: 100%;
+    height:auto;
+    padding:2em 2em;
+    background-color: white;
+    margin: auto;
+}
+
+p{
+    padding: 1%;
+    
+}
+.days ul li{
+    list-style-type: none;
+    text-align: left; 
+    margin-bottom: 15px   
+}
+
+.days ul li input{
+    width: 250px;
+    text-align: center;
+    padding: 8px 0px;
+    border: none;
+    background-color: #d3d3d3; 
+    border-radius: 5px;
+}
+.timetable button{
+    align-items: center;
+}

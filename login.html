@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <title>Login </title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    
+    </head>
+    
+    <body>
+        
+        <div class="containter">
+            
+        <div class="header">
+            <h1>Login to RosterMe</h1>
+            </div>
+            
+            <form name="login" onsubmit="return validateForm() ;" method="post">
+            
+                <ul>
+                    <li>Employee ID: <input class="empid" type="text" name="empid"></li>
+                    
+                    <li>Password: <input class="password" type="password" name="password"></li>
+                    
+                    <input type="button" class="submit" value="Login" name="submit" onclick="validate()">
+                </ul>
+            
+            </form>
+        </div>
+    
+<!-- js script  https://www.youtube.com/watch?v=Gl5SI82A7SQ-->
+        
+        <script>
+            
+            var count=2;
+            
+            funcation validate()
+            {
+                var em = document.login.empid.value;
+                var pw = document.login.password.value;
+                var validate = false;
+                
+                var empidArray = ["Reema", "Bob"]
+            }
+            
+        </script>
+    
+    </body></html>

@@ -1,4 +1,8 @@
+<!DOCTYPE html>
 <html>
+    <meta charset="utf-8">
+    <title> HTML Login Form</title>
+    <link rel=stylesheet type="text/css" href="main.css">
 <head>
     
     <title>Form Example</title>
@@ -25,40 +29,44 @@
 </head>
 <body>
     <!--//http://www.informit.com/articles/article.aspx?p=30105&seqNum=6-->
+    <div class="timetable">
     <h1>Form Example</h1>
         <p>Enter the following information. When you press the Submit button,the data you entered will be validated, then sent by email.</p>
     
     <form name="form1" action="mailto:reema.bali@outlook.com" enctype="text/plain" method="POST" onSubmit="return validate();">
-        <p><b>Name:</b> <input type="TEXT" size="20" name="yourname ">
-        </p>
+        
+        <div class="days">
+        <ul>
+        <li><b>Name:</b> <input type="TEXT" size="20" name="yourname ">
+        </li>
         
 <!-- The week input-->
         
-        <p><b> Week: </b><input type="WEEK" name="theweek" />
-        </p> 
+        <li><b> Week: </b><input type="WEEK" name="theweek" />
+        </li> 
         
 <!-- days of the week schedual input-->
-    <section id="days">
-        <p><b>Monday: </b><input type="time" name="Monday" />
-        </p>
-        <p><b>Tuesday: </b><input type="time" name="Tuesday" />
-        </p>
-        <p><b>Wednesday: </b><input type="time" name="Wednesday" />
-        </p>
-        <p><b>Thursday: </b><input type="time" name="Thursday" />
-        </p>
-        <p><b>Friday: </b><input type="time" name="Friday" />
-        </p>
-        <p><b>Saturday: </b><input type="time" name="Saturday" />
-        </p>
-        <p><b>Sunday: </b><input type="time" name="Sunday" />
-        </p>
-    </section>
     
-      
-        
-        <p>  <input TYPE="SUBMIT" VALUE="Submit"></p>
+        <li><b>Monday: </b><input type="time" name="Monday" />
+        </li>
+        <li><b>Tuesday: </b><input type="time" name="Tuesday" />
+        </li>
+        <li><b>Wednesday: </b><input type="time" name="Wednesday" />
+        </li>
+        <li><b>Thursday: </b><input type="time" name="Thursday" />
+        </li>
+        <li><b>Friday: </b><input type="time" name="Friday" />
+        </li>
+        <li><b>Saturday: </b><input type="time" name="Saturday" />
+        </li>
+        <li><b>Sunday: </b><input type="time" name="Sunday" />
+        </li>
+        </ul>
+        <button><input TYPE="SUBMIT" VALUE="Submit"></button>
     
-    </form>
+    
+        </div>
+        </form>
+    </div>
 </body>
 </html>
