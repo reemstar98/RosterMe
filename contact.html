@@ -1,0 +1,78 @@
+<!-- The link used to help create this program for both CSS and HTML https://www.sololearn.com/Profile/868188-->
+
+<!-- The layout was the specific reasont this format was used as a basis. HTML and CSS have been changed to help functionality and purpose for this project-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset ="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>About me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel=stylesheet type="text/css" href="main.css">
+</head>
+<body>
+ 
+    <header>
+        <!-- The navigation for this site it located here-->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="accordianform.html">Roster</a>
+      <a href="profile3.html">Profile Page</a>
+      <a href="contact.html">Contact</a>
+      <a href="index.html">Logout</a>
+    </div>
+
+<!-- This javasctipy allows the three bars-->
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<!-- The body of this page begins here for the profile content--> 
+
+    <div class="formhead">
+        <h1> Contact</h1>
+        </div>
+    </header>
+
+  <!-- Content is for the whole body after header-->  
+
+    
+<div class="content">
+    <div class="contactinfo"><p></p></div>
+     <!-- Contact box -->
+        <div class="box">
+            <p class="title"><i class="fa fa-info-circle"></i>Darwin</p>
+            <p class="padd-top"></p>
+            <p><i class="fa fa-phone"></i> Company number 04xxxxxxxx </p>            
+            <p><i class="fa fa-envelope"></i>Company Email</p>                
+            <p><i class="fa fa-home"></i> HQ Address</p> 
+            <div class="map1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3896.3237472999995!2d130.85103931463914!3d-12.428136591214026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2cc0938efcc27a85%3A0xbce07cb71bbfb29b!2sTerritory%20Care%20%26%20Support%20Services!5e0!3m2!1sen!2sau!4v1567583211572!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div> </div>
+    <br>
+    
+    <div class="box">
+            <p class="title"><i class="fa fa-info-circle"></i>Alice Springs</p>
+            <p class="padd-top"></p>
+            <p><i class="fa fa-phone"></i> Company number 04xxxxxxxx </p>            
+            <p><i class="fa fa-envelope"></i>Company Email</p>                
+            <p><i class="fa fa-home"></i> HQ Address</p>    
+        <div class ="map1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3896.3237472999995!2d130.85103931463914!3d-12.428136591214026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2cc0938efcc27a85%3A0xbce07cb71bbfb29b!2sTerritory%20Care%20%26%20Support%20Services!5e0!3m2!1sen!2sau!4v1567583211572!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+            </div> 
+        
+    </div>
+<footer> 
+    <div class="formfooter">
+    <p> © T.C.A.S.S</p>
+    </div></footer>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</body>
+</html>

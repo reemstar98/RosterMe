@@ -11,20 +11,20 @@
      <link rel=stylesheet type="text/css" href="main.css">
 </head>
 <body>
- <!-- The navigation for this site it located here-->
-    <div class="headspace">
+ 
+    <header>
+        <!-- The navigation for this site it located here-->
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="accordianform.html">Roster</a>
       <a href="profile3.html">Profile Page</a>
-      <a href="#">Contact</a>
-      <a href="#">Logout</a>
+      <a href="contact.html">Contact</a>
+      <a href="index.html">Logout</a>
     </div>
-        </div>
+
 <!-- This javasctipy allows the three bars-->
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 <!-- The body of this page begins here for the profile content-->
-    <header>
     
         <div class="name "> Employee Name <br>Employee Number</div>
 
@@ -88,15 +88,14 @@
 
         <div class="box">
             <p class="title"><i class="fa fa-flag"></i>Clients Assigned</p>
-                <br>
-                <p class="padd-top">Number of clients:<br> Type of clients:<br> Day Clients: <br> Night Clients:<br> 
+                
+                <p class="padd-top">Number of clients:<br> Type of clients:<br> Day Clients:  Night Clients:<br> 
                 </p>
             </div>  
 
 <div>
      <div class="box">
          <p class="title"><i class="fa fa-crosshairs" aria-hidden="true"></i> Basic Contract Details</p>
-                <br>
                 <p class="padd-top">
                 <b>Location:</b> Darwin / Alice Springe<br>
                     <b>Hourly Rate:</b> $45.70<br>
@@ -108,7 +107,11 @@
         </section>
 
     </div>
-    <footer>    </footer>
+    
+<footer> 
+    <div class="formfooter">
+    <p> © T.C.A.S.S</p>
+    </div></footer>
     
     <script>
     function openNav() {
