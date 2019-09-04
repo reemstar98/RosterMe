@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel=stylesheet type="text/css" href="main.css">
+</head>
+    
+<body>
+
+<!-- This is the Menu Bar-->
+<div id="sidebar">
+
+<div class="toggle-btn" onclick="toggleSidebar()">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+ 
+ <ul>
+  <li>Home</li>
+  <li>About</li>
+  <li>Contact</li>
+  </ul>
+</div>
+
+<script>
+function toggleSidebar(){
+  document.getElementById("sidebar").classList.toggle('active');
+  }
+</script>

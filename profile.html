@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel=stylesheet type="text/css" href="main.css">
+    <!-- for the menu w3schools was used as a referance https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav-->
+</head>
+<body class="profilebackgound">
+<!-- The navigation for this site it located here-->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="accordianform.html">Roster</a>
+      <a href="profile.html">Profile Page</a>
+      <a href="#">Contact</a>
+      <a href="#">Logout</a>
+    </div>
+<!-- This javasctipy allows the three bars-->
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<!-- The body of this page begins here for the profile content-->
+    <h1 style="text-align:center">Employee Profile</h1>
+
+    <div class="profilecard">
+        
+        <div class="imgbackground">
+            <img src="images/user.png" alt="John" style="width:90%">
+        </div>
+        
+      <h1>Employee Name</h1>
+      <p class="title">Employee Referance Number</p>
+      <p>Employee Title</p>
+      <p>Departement</p>
+        <p>Email: example@tcass.nt.gov.au</p>
+    </div>
+   
+    
+
+    
+<!-- This is the java script for the main menu-->
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+    
+</body>
+</html> 

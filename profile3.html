@@ -1,0 +1,123 @@
+<!-- The link used to help create this program for both CSS and HTML https://www.sololearn.com/Profile/868188-->
+
+<!-- The layout was the specific reasont this format was used as a basis. HTML and CSS have been changed to help functionality and purpose for this project-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset ="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>About me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel=stylesheet type="text/css" href="main.css">
+</head>
+<body>
+ <!-- The navigation for this site it located here-->
+    <div class="headspace">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="accordianform.html">Roster</a>
+      <a href="profile3.html">Profile Page</a>
+      <a href="#">Contact</a>
+      <a href="#">Logout</a>
+    </div>
+        </div>
+<!-- This javasctipy allows the three bars-->
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<!-- The body of this page begins here for the profile content-->
+    <header>
+    
+        <div class="name "> Employee Name <br>Employee Number</div>
+
+        <div class="ava">
+            <img src="images/user.png" alt="avatar" style=""/>
+        </div>    
+
+    </header>
+
+
+  <!-- Content is for the whole body after header-->  
+<div class="content">
+    
+    <!-- Aside is the first two boxes -->
+    <aside class="info ">
+        
+        <!-- Contact box -->
+        <div class="box">
+            <p class="title"><i class="fa fa-info-circle"></i>Contact</p>
+            <p class="padd-top"><i class="fa fa-birthday-cake"></i>Day/Month/Year</p>
+            <p><i class="fa fa-phone"></i> 04xxxxxxxx </p>            
+            <p><i class="fa fa-envelope"></i>employee@tcass.com.au</p>                
+            <p><i class="fa fa-home"></i> Employee Address</p>                
+
+            </div> 
+        
+        
+<!-- Skills Box -->
+<div class="box">
+    <p class="title" ><i  class="fa fa-asterisk"></i>Skills</p>
+        <p class="padd-top">Night Work</p>
+            <div class="skill">
+                    <div class="skill-right r1"></div></div>
+
+         <p>Accounting</p>
+              <div class="skill">
+
+                    <div class="skill-right r2"></div></div>
+
+          <p>Client Management</p>
+              <div class="skill">
+
+                    <div class="skill-right r3"></div></div>
+            </div>  
+
+</aside>
+
+<!-- Sections count for Text input areas-->
+    <section class="main">
+        <div class="box">
+            <p class="title"><i class="fa fa-graduation-cap"></i>Education</p>
+                <p class="padd-top">
+                    Certifications:<br>
+                    Bachlors:<br>
+                    Awards:<br>
+                    Ocha Card:<br>
+                    Other<br>
+                </p>
+            </div>  
+
+
+        <div class="box">
+            <p class="title"><i class="fa fa-flag"></i>Clients Assigned</p>
+                <br>
+                <p class="padd-top">Number of clients:<br> Type of clients:<br> Day Clients: <br> Night Clients:<br> 
+                </p>
+            </div>  
+
+<div>
+     <div class="box">
+         <p class="title"><i class="fa fa-crosshairs" aria-hidden="true"></i> Basic Contract Details</p>
+                <br>
+                <p class="padd-top">
+                <b>Location:</b> Darwin / Alice Springe<br>
+                    <b>Hourly Rate:</b> $45.70<br>
+                    <b>Base Hours:</b> 25 to 30 hour week
+                </p>
+            </div>  
+            </div>
+
+        </section>
+
+    </div>
+    <footer>    </footer>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</body>
+</html>

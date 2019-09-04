@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel=stylesheet type="text/css" href="main.css">
+</head>
+    
+<body>
+<!-- The navigation for this site it located here-->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="accordianform.html">Roster</a>
+      <a href="profile3.html">Profile Page</a>
+      <a href="#">Contact</a>
+      <a href="#">Logout</a>
+    </div>
+<!-- This javasctipy allows the three bars-->
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    
+    
+    <!-- Input boxes link referance https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text -->
+    <!-- form link referance //http://www.informit.com/articles/article.aspx?p=30105&seqNum=6 ----->
+    
+<header>
+    <div class="formhead">
+    <h1>Roster</h1>
+        <p>Welcome to your weekly roster input form!<br> You can input all your infortion for this weeks roster below. When you click submit all this information will automatically make you and email. <br> All thats left will be for you to click the send email button on your mobile phone or desktop</p>
+        </div>
+</header>
+ 
+<div class="weeklyform">
+    
+    <form name="form1" action="mailto:reema.bali@outlook.com" enctype="text/plain" method="POST" onSubmit="return validate();">
+        
+        <div class="days">
+            <ul>
+                <li><b>Name:</b> <input type="TEXT" size="20" name="Employee Name ">
+                </li>
+        
+<!-- The week input-->
+        
+                <li><b> Week: </b><input type="WEEK" name="Current Working Week" />
+                </li> 
+            </ul>
+
+<!-- The Monday Form input-->
+<button class="accordion">Monday</button>
+<div class="panel">
+    <br>
+    
+<!-- This section of form asks for hours worked-->
+    <ul>
+        <li><b>Start Time 1: </b><input type="time" name="Monday Start Time 1" />
+        </li>
+        <li><b>End Time 1: </b><input type="time" name="Monday End Time 1" />
+        </li>
+        
+        <p> Unpaid Break</p>
+        
+        <li><b>Start Time 2: </b><input type="time" name="Monday Start Time 2" />
+        </li>
+        
+        <li><b>End Time 2: </b><input type="time" name="Monday End Time 2" />
+        </li>
+    </ul>
+
+    <!-- This section of form asked for extra add on employees may have -->
+    <h3>Extra Add Ons</h3>
+        <p> If nothing extra needs to be added for this day please do not check any section</p>
+    
+    <form action="/action_page.php">
+        
+        <input type="checkbox" name="KM add on Monday" value="in KM"> Car distance traveled in KM<br>
+        
+        <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+        
+        <input type="checkbox" name="Overtime Monday" value="in Hours">Over Time Worked (In hours)<br>
+         <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+        
+        <input type="checkbox" name="Money Out of Pocket Monday" value="Dollars" >Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
+         <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+    </form> 
+</div>
+            
+
+ 
+<!-- Tuesday Form Section-->            
+<button class="accordion">Tuesday</button>
+<div class="panel">
+    <br>
+    
+<!-- This section of form asks for hours worked-->
+    <ul>
+        <li><b>Start Time 1: </b><input type="time" name="Tuesday Start Time 1" />
+        </li>
+        <li><b>End Time 1: </b><input type="time" name="Tuesday End Time 1" />
+        </li>
+        
+        <p> Unpaid Break</p>
+        
+        <li><b>Start Time 2: </b><input type="time" name="Tuesday Start Time 2" />
+        </li>
+        
+        <li><b>End Time 2: </b><input type="time" name="Tuesday End Time 2" />
+        </li>
+    </ul>
+
+    <!-- This section of form asked for extra add on employees may have -->
+    <h3>Extra Add Ons</h3>
+        <p> If nothing extra needs to be added for this day please do not check any section</p>
+    
+     <form action="/action_page.php">
+        
+        <input type="checkbox" name="KM add on Tuesday" value="in KM"> Car distance traveled in KM<br>
+        
+        <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+        
+        <input type="checkbox" name="Overtime Tuesday" value="in Hours">Over Time Worked (In hours)<br>
+         <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+        
+        <input type="checkbox" name="Money Out of Pocket Tuesday" value="Dollars" >Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
+         <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+    </form>
+</div>
+            
+
+
+<!-- Wednesday Form Section -->
+<button class="accordion">Wednesday</button>
+<div class="panel">
+    <br>
+    
+<!-- This section of form asks for hours worked-->
+    <ul>
+        <li><b>Start Time 1: </b><input type="time" name="Wednesday Start Time 1" />
+        </li>
+        <li><b>End Time 1: </b><input type="time" name="Wednesday End Time 1" />
+        </li>
+        
+        <p> Unpaid Break</p>
+        
+        <li><b>Start Time 2: </b><input type="time" name="Wednesday Start Time 2" />
+        </li>
+        
+        <li><b>End Time 2: </b><input type="time" name="Wednesday End Time 2" />
+        </li>
+    </ul>
+
+    <!-- This section of form asked for extra add on employees may have -->
+    <h3>Extra Add Ons</h3>
+        <p> If nothing extra needs to be added for this day please do not check any section</p>
+    
+     <form action="/action_page.php">
+        
+        <input type="checkbox" name="KM add on Wednesday" value="in KM"> Car distance traveled in KM<br>
+        
+        <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+        
+        <input type="checkbox" name="Overtime Wednesday" value="in Hours">Over Time Worked (In hours)<br>
+         <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+        
+        <input type="checkbox" name="Money Out of Pocket Wednesday" value="Dollars" >Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
+         <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+    </form>
+</div>
+            
+
+ 
+<!-- Thursday Form Section -->
+<button class="accordion">Thursday</button>
+<div class="panel">
+    <br>
+    
+<!-- This section of form asks for hours worked-->
+    <ul>
+        <li><b>Start Time 1: </b><input type="time" name="Thursday Start Time 1" />
+        </li>
+        <li><b>End Time 1: </b><input type="time" name="Thursday End Time 1" />
+        </li>
+        
+        <p> Unpaid Break</p>
+        
+        <li><b>Start Time 2: </b><input type="time" name="Thursday Start Time 2" />
+        </li>
+        
+        <li><b>End Time 2: </b><input type="time" name="Thursday End Time 2" />
+        </li>
+    </ul>
+
+    <!-- This section of form asked for extra add on employees may have -->
+    <h3>Extra Add Ons</h3>
+        <p> If nothing extra needs to be added for this day please do not check any section</p>
+    
+    <form action="/action_page.php">
+        
+        <input type="checkbox" name="KM add on Thursday" value="in KM"> Car distance traveled in KM<br>
+        
+        <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+        
+        <input type="checkbox" name="Overtime Thursday" value="in Hours">Over Time Worked (In hours)<br>
+         <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+        
+        <input type="checkbox" name="Money Out of Pocket Thursday" value="Dollars" >Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
+         <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+    </form> 
+</div>
+            
+ 
+
+ <!-- Friday Form Section -->           
+<button class="accordion">Friday</button>
+<div class="panel">
+    <br>
+    
+<!-- This section of form asks for hours worked-->
+    <ul>
+        <li><b>Start Time 1: </b><input type="time" name="Friday Start Time 1" />
+        </li>
+        <li><b>End Time 1: </b><input type="time" name="Friday End Time 1" />
+        </li>
+        
+        <p> Unpaid Break</p>
+        
+        <li><b>Start Time 2: </b><input type="time" name="Friday Start Time 2" />
+        </li>
+        
+        <li><b>End Time 2: </b><input type="time" name="Friday End Time 2" />
+        </li>
+    </ul>
+
+    <!-- This section of form asked for extra add on employees may have -->
+    <h3>Extra Add Ons</h3>
+        <p> If nothing extra needs to be added for this day please do not check any section</p>
+    
+     <form action="/action_page.php">
+        
+        <input type="checkbox" name="KM add on Friday" value="in KM"> Car distance traveled in KM<br>
+        
+        <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+        
+        <input type="checkbox" name="Overtime Friday" value="in Hours">Over Time Worked (In hours)<br>
+         <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+        
+        <input type="checkbox" name="Money Out of Pocket Friday" value="Dollars" >Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
+         <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+    </form>
+</div>
+            
+ 
+ <!--Saturdya Form Section -->   
+<button class="accordion">Saturday</button>
+<div class="panel">
+    <br>
+    
+<!-- This section of form asks for hours worked-->
+    <ul>
+        <li><b>Start Time 1: </b><input type="time" name="Saturday Start Time 1" />
+        </li>
+        <li><b>End Time 1: </b><input type="time" name="Saturday End Time 1" />
+        </li>
+        
+        <p> Unpaid Break</p>
+        
+        <li><b>Start Time 2: </b><input type="time" name="Saturday Start Time 2" />
+        </li>
+        
+        <li><b>End Time 2: </b><input type="time" name="Saturday End Time 2" />
+        </li>
+    </ul>
+
+    <!-- This section of form asked for extra add on employees may have -->
+    <h3>Extra Add Ons</h3>
+        <p> If nothing extra needs to be added for this day please do not check any section</p>
+    
+    <form action="/action_page.php">
+        
+        <input type="checkbox" name="KM add on Saturday" value="in KM"> Car distance traveled in KM<br>
+        
+        <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+        
+        <input type="checkbox" name="Overtime Saturday" value="in Hours">Over Time Worked (In hours)<br>
+         <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+        
+        <input type="checkbox" name="Money Out of Pocket Saturday" value="Dollars" >Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
+         <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+    </form>
+</div>
+            
+
+ 
+<!-- Sunday Form Section -->
+<button class="accordion">Sunday</button>
+<div class="panel">
+    <br>
+    
+<!-- This section of form asks for hours worked-->
+    <ul>
+        <li><b>Start Time 1: </b><input type="time" name="Sunday Start Time 1" />
+        </li>
+        <li><b>End Time 1: </b><input type="time" name="Sunday End Time 1" />
+        </li>
+        
+        <p> Unpaid Break</p>
+        
+        <li><b>Start Time 2: </b><input type="time" name="Sunday Start Time 2" />
+        </li>
+        
+        <li><b>End Time 2: </b><input type="time" name="Sunday End Time 2" />
+        </li>
+    </ul>
+
+    <!-- This section of form asked for extra add on employees may have -->
+    <h3>Extra Add Ons</h3>
+        <p> If nothing extra needs to be added for this day please do not check any section</p>
+    
+    <form action="/action_page.php">
+        
+        <input type="checkbox" name="KM add on Sunday" value="in KM"> Car distance traveled in KM<br>
+        
+        <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+        
+        <input type="checkbox" name="Overtime Sunday" value="in Hours">Over Time Worked (In hours)<br>
+         <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+        
+        <input type="checkbox" name="Money Out of Pocket Sunday" value="Dollars" >Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
+         <input type="text" id="name" name="name" required
+       minlength="0" maxlength="5" size="10"><br>
+    </form>
+</div>
+            
+  <br>
+ <div class=formbutton>
+    <button class="formsubmit"><input TYPE="SUBMIT" VALUE="Submit"></button>
+            </div>
+        </div>
+    </form>
+    </div><br>
+    
+
+
+    
+    
+    
+    
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight)
+            {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+<footer> 
+    <div class="formfooter">
+    <p> © T.C.A.S.S</p>
+    </div></footer>
+</body>
+</html>
