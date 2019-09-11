@@ -1,5 +1,16 @@
 ## Welcome to GitHub Pages
 
+Links / Libararies Used
+
+Settings page and Contact Page
+The link used to help create this program for both CSS and HTML https://www.sololearn.com/Profile/868188 and also this bootstap type link was used to help create/ model the password form https://bootsnipp.com/snippets/8v4K on the 
+
+Accordian Form Page
+Input boxes link referance https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text
+form link referance //http://www.informit.com/articles/article.aspx?p=30105&seqNum=6
+
+
+
 You can use the [editor on GitHub](https://github.com/reemstar98/RosterMe/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
