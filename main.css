@@ -98,7 +98,10 @@ ul.list li:nth-child(5){
     align-items: center;
 }
 
-
+.formsubmit button{
+    color: green;
+    
+}
 
 /*---------------------- accordian form*/
 .accordion {
@@ -173,13 +176,13 @@ ul.list li:nth-child(5){
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: teal;
 }
 
 .sidenav .closebtn {
@@ -458,4 +461,11 @@ footer{
 .contactinfo{
         padding-top: 4%;
         margin-bottom: -20%;
+    }
+    
+/*----------------------------------Settings Page*/
+
+    .settings p{
+        text-align: left;
+        
     }
