@@ -158,6 +158,17 @@ ul.list li:nth-child(5){
     color: white;
     padding: 10px 2%;
 }
+
+.comments p{
+    font-size: .5em;
+    color: blue;
+    
+}
+
+.weekdate{
+    width: 100%;
+    
+}
 /*---------------------------------------side bar*/
 .sidenav {
   height: 100%;

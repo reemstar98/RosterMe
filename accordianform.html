@@ -40,24 +40,32 @@
                 </li>
         
 <!-- The week input-->
-        
-                <li><b> Current Working Week: </b><input type="WEEK" name="Current Working Week" />
-                </li> 
-            </ul>
+                
+                <div class="comments"><p> *In this input section please state the date for the monday of your working week and the date of the sunday of you working week. I.E. Week Start: 23/09/2019. Week End: 29/09/2019</p></div></ul>
+            
+        <div class="weekdate">
+            <ul>
+                <li><b> Week Start:</b> <input type="date" name="sweek"><br>
+                    
+                <li><b> Week End:</b> <input type="date" name="eweek"></li>
+                
+            </ul></div>
 
 <!-- The Monday Form input-->
 <button1 class="accordion">Monday</button1>
 <div class="panel">
-    <br>
     
 <!-- This section of form asks for hours worked-->
+    <br><div class="comments"><p> *Start time one refers to the time of day you start working. <br>*End time one refers to the time of day you stop working to go on your lunch break</p></div>
     <ul>
         <li><b>Start Time 1: </b><input type="time" name="Monday Start Time 1" />
         </li>
         <li><b>End Time 1: </b><input type="time" name="Monday End Time 1" />
         </li>
         
-        <p> Unpaid Break</p>
+        <br><p> Unpaid Break</p>
+        
+        <div class="comments"><p> *Start time two refers to the time of day you start working again after coming back from your break. <br>*End time two refers to the timeyou stop working for that day</p></div>
         
         <li><b>Start Time 2: </b><input type="time" name="Monday Start Time 2" />
         </li>
@@ -67,7 +75,9 @@
     </ul>
 
     <!-- This section of form asked for extra add on employees may have -->
-    <h3>Extra Add Ons</h3>
+    <br><div class="comments"><p> *In this section please tick off any extra add ons for this day and add in the amount</p></div>
+    
+   <h3><b>Extra Add Ons</b></h3>
         <p> If nothing extra needs to be added for this day please do not check any section</p>
     
     <form action="/action_page.php">
@@ -77,14 +87,14 @@
         <input type="text" id="name" name="name"
        minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Overtime Monday" value="in Hours">Over Time Worked (In hours)<br>
+        <input type="checkbox" name="Overtime Monday" value="in Hours"> Over Time Worked (In hours)<br>
          <input type="text" id="name" name="name" 
        minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Money Out of Pocket Monday" value="Dollars" >Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
+        <input type="checkbox" name="Money Out of Pocket Monday" value="Dollars" > Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
          <input type="text" id="name" name="name" 
        minlength="0" maxlength="5" size="10"><br>
-    </form> 
+    </form><br> 
 </div>
             
 
@@ -92,7 +102,7 @@
 <!-- Tuesday Form Section-->            
 <button1 class="accordion">Tuesday</button1>
 <div class="panel">
-    <br>
+   <br><div class="comments"><p> *Start time one refers to the time of day you start working. <br>*End time one refers to the time of day you stop working to go on your lunch break</p></div>
     
 <!-- This section of form asks for hours worked-->
     <ul>
@@ -101,7 +111,9 @@
         <li><b>End Time 1: </b><input type="time" name="Tuesday End Time 1" />
         </li>
         
-        <p> Unpaid Break</p>
+        <br><p> Unpaid Break</p>
+        
+        <div class="comments"><p> *Start time two refers to the time of day you start working again after coming back from your break. <br>*End time two refers to the timeyou stop working for that day</p></div>
         
         <li><b>Start Time 2: </b><input type="time" name="Tuesday Start Time 2" />
         </li>
@@ -111,24 +123,23 @@
     </ul>
 
     <!-- This section of form asked for extra add on employees may have -->
-    <h3>Extra Add Ons</h3>
+    <br><div class="comments"><p> *In this section please tick off any extra add ons for this day and add in the amount</p></div>
+    
+    <h3><b>Extra Add Ons</b></h3>
         <p> If nothing extra needs to be added for this day please do not check any section</p>
     
      <form action="/action_page.php">
         
-        <input type="checkbox" name="KM add on Tuesday" value="in KM"> Car distance traveled in KM<br>
+        <input type="checkbox" name="KM add on Tuesday" value="in KM"> Car distance traveled in KM<br><input type="text" id="KM add on Tuesday" name="in KM" minlength="0" maxlength="5" size="10"><br>
         
-        <input type="text" id="KM add on Tuesday" name="in KM" 
-       minlength="0" maxlength="5" size="10"><br>
-        
-        <input type="checkbox" name="Overtime Tuesday" value="in Hours">Over Time Worked (In hours)<br>
+        <input type="checkbox" name="Overtime Tuesday" value="in Hours"> Over Time Worked (In hours)<br>
          <input type="text" id="Overtime Tuesday" name="in Hours" 
        minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Money Out of Pocket Tuesday" value="Dollars" >Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
+        <input type="checkbox" name="Money Out of Pocket Tuesday" value="Dollars" > Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
          <input type="text" id="Money Out of Pocket Tuesday" name="Dollars" 
        minlength="0" maxlength="5" size="10"><br>
-    </form>
+    </form><br>
 </div>
             
 
@@ -136,7 +147,7 @@
 <!-- Wednesday Form Section -->
 <button1 class="accordion">Wednesday</button1>
 <div class="panel">
-    <br>
+   <br><div class="comments"><p> *Start time one refers to the time of day you start working. <br>*End time one refers to the time of day you stop working to go on your lunch break</p></div>
     
 <!-- This section of form asks for hours worked-->
     <ul>
@@ -145,7 +156,9 @@
         <li><b>End Time 1: </b><input type="time" name="Wednesday End Time 1" />
         </li>
         
-        <p> Unpaid Break</p>
+        <br><p> Unpaid Break</p>
+        
+         <div class="comments"><p> *Start time two refers to the time of day you start working again after coming back from your break. <br>*End time two refers to the timeyou stop working for that day</p></div>
         
         <li><b>Start Time 2: </b><input type="time" name="Wednesday Start Time 2" />
         </li>
@@ -155,7 +168,9 @@
     </ul>
 
     <!-- This section of form asked for extra add on employees may have -->
-    <h3>Extra Add Ons</h3>
+    <br><div class="comments"><p> *In this section please tick off any extra add ons for this day and add in the amount</p></div>
+    
+    <h3><b>Extra Add Ons</b></h3>
         <p> If nothing extra needs to be added for this day please do not check any section</p>
     
      <form action="/action_page.php">
@@ -165,11 +180,11 @@
         <input type="text" id="KM add on Wednesday" name="in KM" 
        minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Overtime Wednesday" value="in Hours">Over Time Worked (In hours)<br>
+        <input type="checkbox" name="Overtime Wednesday" value="in Hours"> Over Time Worked (In hours)<br>
          <input type="text" id="Overtime Wednesday" name="in Hours" 
        minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Money Out of Pocket Wednesday" value="Dollars" >Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
+        <input type="checkbox" name="Money Out of Pocket Wednesday" value="Dollars" > Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
          <input type="text" id="Money Out of Pocket Wednesday" name="Dollars" 
        minlength="0" maxlength="5" size="10"><br>
     </form>
@@ -180,7 +195,7 @@
 <!-- Thursday Form Section -->
 <button1 class="accordion">Thursday</button1>
 <div class="panel">
-    <br>
+    <br><div class="comments"><p> *Start time one refers to the time of day you start working. <br>*End time one refers to the time of day you stop working to go on your lunch break</p></div>
     
 <!-- This section of form asks for hours worked-->
     <ul>
@@ -189,7 +204,9 @@
         <li><b>End Time 1: </b><input type="time" name="Thursday End Time 1" />
         </li>
         
-        <p> Unpaid Break</p>
+        <br><p> Unpaid Break</p>
+        
+         <div class="comments"><p> *Start time two refers to the time of day you start working again after coming back from your break. <br>*End time two refers to the timeyou stop working for that day</p></div>
         
         <li><b>Start Time 2: </b><input type="time" name="Thursday Start Time 2" />
         </li>
@@ -199,7 +216,9 @@
     </ul>
 
     <!-- This section of form asked for extra add on employees may have -->
-    <h3>Extra Add Ons</h3>
+ <br><div class="comments"><p> *In this section please tick off any extra add ons for this day and add in the amount</p></div>
+    
+    <h3><b>Extra Add Ons</b></h3>
         <p> If nothing extra needs to be added for this day please do not check any section</p>
     
     <form action="/action_page.php">
@@ -209,14 +228,14 @@
         <input type="text" id="KM add on Thursday" name="in KM" 
        minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Overtime Thursday" value="in Hours">Over Time Worked (In hours)<br>
+        <input type="checkbox" name="Overtime Thursday" value="in Hours"> Over Time Worked (In hours)<br>
          <input type="text" id="Overtime Thursday" name="in Hours" 
        minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Money Out of Pocket Thursday" value="Dollars" >Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
+        <input type="checkbox" name="Money Out of Pocket Thursday" value="Dollars" > Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
          <input type="text" id="Money Out of Pocket Thursday" name="Dollars" 
        minlength="0" maxlength="5" size="10"><br>
-    </form> 
+    </form><br> 
 </div>
             
  
@@ -224,7 +243,7 @@
  <!-- Friday Form Section -->           
 <button1 class="accordion">Friday</button1>
 <div class="panel">
-    <br>
+    <br><div class="comments"><p> *Start time one refers to the time of day you start working. <br>*End time one refers to the time of day you stop working to go on your lunch break</p></div>
     
 <!-- This section of form asks for hours worked-->
     <ul>
@@ -233,7 +252,9 @@
         <li><b>End Time 1: </b><input type="time" name="Friday End Time 1" />
         </li>
         
-        <p> Unpaid Break</p>
+        <br><p> Unpaid Break</p>
+        
+        <div class="comments"><p> *Start time two refers to the time of day you start working again after coming back from your break. <br>*End time two refers to the timeyou stop working for that day</p></div>
         
         <li><b>Start Time 2: </b><input type="time" name="Friday Start Time 2" />
         </li>
@@ -243,31 +264,30 @@
     </ul>
 
     <!-- This section of form asked for extra add on employees may have -->
-    <h3>Extra Add Ons</h3>
+    <br><div class="comments"><p> *In this section please tick off any extra add ons for this day and add in the amount</p></div>
+    
+    <h3><b>Extra Add Ons</b></h3>
         <p> If nothing extra needs to be added for this day please do not check any section</p>
     
      <form action="/action_page.php">
         
-        <input type="checkbox" name="KM add on Friday" value="in KM"> Car distance traveled in KM<br>
+        <input type="checkbox" name="KM add on Friday" value="in KM"> Car distance traveled in KM<br><input type="text" id="KM add on Friday" name="in KM" minlength="0" maxlength="5" size="10"><br>
         
-        <input type="text" id="KM add on Friday" name="in KM"
-       minlength="0" maxlength="5" size="10"><br>
-        
-        <input type="checkbox" name="Overtime Friday" value="in Hours">Over Time Worked (In hours)<br>
+        <input type="checkbox" name="Overtime Friday" value="in Hours"> Over Time Worked (In hours)<br>
          <input type="text" id="Overtime Friday" name="in Hours" 
        minlength="0" maxlength="5" size="10"><br>
         
         <input type="checkbox" name="Money Out of Pocket Friday" value="Dollars" >Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
          <input type="text" id="Money Out of Pocket Friday" name="Dollars" 
        minlength="0" maxlength="5" size="10"><br>
-    </form>
+    </form><br>
 </div>
             
  
  <!--Saturdya Form Section -->   
 <button1 class="accordion">Saturday</button1>
 <div class="panel">
-    <br>
+    <br><div class="comments"><p> *Start time one refers to the time of day you start working. <br>*End time one refers to the time of day you stop working to go on your lunch break</p></div>
     
 <!-- This section of form asks for hours worked-->
     <ul>
@@ -276,7 +296,9 @@
         <li><b>End Time 1: </b><input type="time" name="Saturday End Time 1" />
         </li>
         
-        <p> Unpaid Break</p>
+        <br><p> Unpaid Break</p>
+        
+        <div class="comments"><p> *Start time two refers to the time of day you start working again after coming back from your break. <br>*End time two refers to the timeyou stop working for that day</p></div>
         
         <li><b>Start Time 2: </b><input type="time" name="Saturday Start Time 2" />
         </li>
@@ -286,24 +308,23 @@
     </ul>
 
     <!-- This section of form asked for extra add on employees may have -->
-    <h3>Extra Add Ons</h3>
+    <br><div class="comments"><p> *In this section please tick off any extra add ons for this day and add in the amount</p></div>
+    
+    <h3><b>Extra Add Ons</b></h3>
         <p> If nothing extra needs to be added for this day please do not check any section</p>
     
     <form action="/action_page.php">
         
-        <input type="checkbox" name="KM add on Saturday" value="in KM"> Car distance traveled in KM<br>
+        <input type="checkbox" name="KM add on Saturday" value="in KM"> Car distance traveled in KM<br><input type="text" id="KM add on Saturday" name="in KM" minlength="0" maxlength="5" size="10"><br>
         
-        <input type="text" id="KM add on Saturday" name="in KM" 
-       minlength="0" maxlength="5" size="10"><br>
-        
-        <input type="checkbox" name="Overtime Saturday" value="in Hours">Over Time Worked (In hours)<br>
+        <input type="checkbox" name="Overtime Saturday" value="in Hours"> Over Time Worked (In hours)<br>
          <input type="text" id="Overtime Saturday" name="in Hours" 
        minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Money Out of Pocket Saturday" value="Dollars" >Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
+        <input type="checkbox" name="Money Out of Pocket Saturday" value="Dollars" > Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
          <input type="text" id="Money Out of Pocket Saturday" name="Dollars" 
        minlength="0" maxlength="5" size="10"><br>
-    </form>
+    </form><br>
 </div>
             
 
@@ -311,7 +332,7 @@
 <!-- Sunday Form Section -->
 <button1 class="accordion">Sunday</button1>
 <div class="panel">
-    <br>
+    <br><div class="comments"><p> *Start time one refers to the time of day you start working. <br>*End time one refers to the time of day you stop working to go on your lunch break</p></div>
     
 <!-- This section of form asks for hours worked-->
     <ul>
@@ -320,7 +341,9 @@
         <li><b>End Time 1: </b><input type="time" name="Sunday End Time 1" />
         </li>
         
-        <p> Unpaid Break</p>
+        <br><p> Unpaid Break</p>
+        
+        <div class="comments"><p> *Start time two refers to the time of day you start working again after coming back from your break. <br>*End time two refers to the timeyou stop working for that day</p></div>
         
         <li><b>Start Time 2: </b><input type="time" name="Sunday Start Time 2" />
         </li>
@@ -330,7 +353,9 @@
     </ul>
 
     <!-- This section of form asked for extra add on employees may have -->
-    <h3>Extra Add Ons</h3>
+    <br><div class="comments"><p> *In this section please tick off any extra add ons for this day and add in the amount</p></div>
+    
+    <h3><b>Extra Add Ons</b></h3>
         <p> If nothing extra needs to be added for this day please do not check any section</p>
     
     <form action="/action_page.php">
@@ -340,14 +365,14 @@
         <input type="text" id="KM add on Sunday" name="in KM" 
        minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Overtime Sunday" value="in Hours">Over Time Worked (In hours)<br>
+        <input type="checkbox" name="Overtime Sunday" value="in Hours"> Over Time Worked (In hours)<br>
          <input type="text" id="Overtime Sunday" name="in Hours"
        minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Money Out of Pocket Sunday" value="Dollars" >Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
+        <input type="checkbox" name="Money Out of Pocket Sunday" value="Dollars" > Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
          <input type="text" id="Money Out of Pocket Sunday" name="Dollars" 
        minlength="0" maxlength="5" size="10"><br>
-    </form>
+    </form><br>
 </div>
             
   <br>
