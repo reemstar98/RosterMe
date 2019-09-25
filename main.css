@@ -98,10 +98,6 @@ ul.list li:nth-child(5){
     align-items: center;
 }
 
-.formsubmit button{
-    color: green;
-    
-}
 
 /*---------------------- accordian form*/
 .accordion {
@@ -160,7 +156,7 @@ ul.list li:nth-child(5){
 }
 
 .comments p{
-    font-size: .5em;
+    font-size: .7em;
     color: blue;
     
 }
@@ -169,6 +165,7 @@ ul.list li:nth-child(5){
     width: 100%;
     
 }
+
 /*---------------------------------------side bar*/
 .sidenav {
   height: 100%;
