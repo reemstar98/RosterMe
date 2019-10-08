@@ -62,6 +62,8 @@ ul.list li:nth-child(5){
 /*--------------This is all the design for the Roster*/
 .weeklyform{
     margin: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 /* ------------------This is for the header of the form*/
 .formhead{
@@ -77,6 +79,8 @@ ul.list li:nth-child(5){
 
 .formhead p{
     color: white;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /*----------------- accordian form name and week*/
@@ -207,11 +211,11 @@ ul.list li:nth-child(5){
 }
 
 .mySidenav{
-    width: 1000%;
+    width: 100%;
     font-size:4em;
     color: white;
     height: 20px;
-    margin: 1%;
+    margin: 4%;
     margin-top: -50px;
     margin-bottom: 90px;
     border: 3px solid black;
@@ -262,7 +266,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     font-family: 'roboto',sans-serif;
 }
 .content {
-   max-width: 1110px;
+   max-width: 1430px;
    padding: 8px;
    margin: auto;
 }
@@ -283,29 +287,32 @@ header .name{
    font-size: 25px;
    color: white;
    text-align:center;
+    margin-right: 10%;
 
 }
 .ava{
-   overflow: auto;
-   display: table-cell;
-   vertical-align: middle;
-   width:50%;
+    overflow: auto;
+    display: table-cell;
+    vertical-align: middle;
+    width:50%;
+    
    
 }
 .ava img{
-   position: relative;
-   float: right;
-   right: 0.5em;
-   border: 2px solid white;
-   width:180px;   
-   height: auto;
-   border-radius: 100px; 
+    position: relative;
+    float: right;
+    right: 0.5em;
+    border: 2px solid white;
+    width:180px;   
+    height: auto;
+    border-radius: 100px; 
+    margin-right: 35%
 
 }
 
 aside{
    float: left;
-   width:30%; 
+   width:29%; 
    margin-top: 10px;
 
 }
@@ -367,7 +374,7 @@ div.r7{
 
 section{
    float: left;
-   width:69%; 
+   width:70%; 
    margin-top:10px ;
    margin-left:8px;
 }
@@ -427,16 +434,15 @@ ul{
       display: block;
    }
    .ava img{
-      float: none;
-      right: 0;
-      border: 6px solid white;
-      margin:auto;
-      width:180px;   
-      height: auto;
-      border-radius: 100px; 
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%);
+       float: none;
+       right: 0;
+       border: 6px solid white;
+       width:180px;   
+       height: auto;
+       border-radius: 100px; 
+       position: relative;
+       transform: translateX(-50%)0;
+       margin-right: 35%
    }
    header .name{
       text-shadow: 0 0 3px white;

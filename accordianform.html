@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Roster</title>
 <link rel=stylesheet type="text/css" href="main.css">
 </head>
     
@@ -49,9 +49,9 @@
             
         <div class="weekdate">
             <ul>
-                <li><b> Week Start:</b> <input type="date" name="sweek"><br>
+                <li><b> Week Start:</b> <input type="date" name="Star of Week"><br>
                     
-                <li><b> Week End:</b> <input type="date" name="eweek"></li>
+                <li><b> Week End:</b> <input type="date" name="End of Week"></li>
                 
             </ul></div>
 
@@ -86,18 +86,11 @@
     
     <form action="/action_page.php">
         
-        <input type="checkbox" name="KM add on Monday" value="in KM"> Car distance traveled in KM<br>
+        <input type="checkbox" name="KM add on Monday"> Car distance traveled in KM <input type="text" minlength="0" maxlength="5" size="10"><br>
         
-        <input type="text" id="name" name="name"
-       minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="Overtime Monday" > Over Time Worked (In hours)<input type="text"minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Overtime Monday" value="in Hours"> Over Time Worked (In hours)<br>
-         <input type="text" id="name" name="name" 
-       minlength="0" maxlength="5" size="10"><br>
-        
-        <input type="checkbox" name="Money Out of Pocket Monday" value="Dollars" > Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
-         <input type="text" id="name" name="name" 
-       minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="Money Out of Pocket Monday"  > Money spent out of pocket to be reinburshed (reason, client name and amount)<input type="text"minlength="0" maxlength="100" size="100"><br>
     </form><br> 
 </div>
             
@@ -134,15 +127,11 @@
     
      <form action="/action_page.php">
         
-        <input type="checkbox" name="KM add on Tuesday" value="in KM"> Car distance traveled in KM<br><input type="text" id="KM add on Tuesday" name="in KM" minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="KM add on Tuesday"> Car distance traveled in KM<input type="text" minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Overtime Tuesday" value="in Hours"> Over Time Worked (In hours)<br>
-         <input type="text" id="Overtime Tuesday" name="in Hours" 
-       minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="Overtime Tuesday"> Over Time Worked (In hours)<input type="text"minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Money Out of Pocket Tuesday" value="Dollars" > Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
-         <input type="text" id="Money Out of Pocket Tuesday" name="Dollars" 
-       minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="Money Out of Pocket Tuesday" value="Dollars" > Money spent out of pocket to be reinburshed (reason, client name and amount)<input type="text"minlength="0" maxlength="100" size="100"><br>
     </form><br>
 </div>
             
@@ -179,19 +168,12 @@
     
      <form action="/action_page.php">
         
-        <input type="checkbox" name="KM add on Wednesday" value="in KM"> Car distance traveled in KM<br>
+        <input type="checkbox" name="KM add on Wednesday" v> Car distance traveled in KM<input type="text" minlength="0" maxlength="5" size="10"><br>
         
-        <input type="text" id="KM add on Wednesday" name="in KM" 
-       minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="Overtime Wednesday" > Over Time Worked (In hours)<input type="text"minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Overtime Wednesday" value="in Hours"> Over Time Worked (In hours)<br>
-         <input type="text" id="Overtime Wednesday" name="in Hours" 
-       minlength="0" maxlength="5" size="10"><br>
-        
-        <input type="checkbox" name="Money Out of Pocket Wednesday" value="Dollars" > Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
-         <input type="text" id="Money Out of Pocket Wednesday" name="Dollars" 
-       minlength="0" maxlength="5" size="10"><br>
-    </form>
+        <input type="checkbox" name="Money Out of Pocket Wednesday" > Money spent out of pocket to be reinburshed (reason, client name and amount)<input type="text"minlength="0" maxlength="5" size="10"><br>
+    </form><br>
 </div>
             
 
@@ -227,18 +209,11 @@
     
     <form action="/action_page.php">
         
-        <input type="checkbox" name="KM add on Thursday" value="in KM"> Car distance traveled in KM<br>
+        <input type="checkbox" name="KM add on Thursday"> Car distance traveled in KM<input type="text" minlength="0" maxlength="5" size="10"><br>
         
-        <input type="text" id="KM add on Thursday" name="in KM" 
-       minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="Overtime Thursday"> Over Time Worked (In hours)<input type="text" minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Overtime Thursday" value="in Hours"> Over Time Worked (In hours)<br>
-         <input type="text" id="Overtime Thursday" name="in Hours" 
-       minlength="0" maxlength="5" size="10"><br>
-        
-        <input type="checkbox" name="Money Out of Pocket Thursday" value="Dollars" > Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
-         <input type="text" id="Money Out of Pocket Thursday" name="Dollars" 
-       minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="Money Out of Pocket Thursday" > Money spent out of pocket to be reinburshed (reason, client name and amount)<input type="text" minlength="0" maxlength="100" size="100"><br>
     </form><br> 
 </div>
             
@@ -275,15 +250,11 @@
     
      <form action="/action_page.php">
         
-        <input type="checkbox" name="KM add on Friday" value="in KM"> Car distance traveled in KM<br><input type="text" id="KM add on Friday" name="in KM" minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="KM add on Friday"> Car distance traveled in KM<input type="text" minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Overtime Friday" value="in Hours"> Over Time Worked (In hours)<br>
-         <input type="text" id="Overtime Friday" name="in Hours" 
-       minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="Overtime Friday"> Over Time Worked (In hours)<input type="text" minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Money Out of Pocket Friday" value="Dollars" >Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
-         <input type="text" id="Money Out of Pocket Friday" name="Dollars" 
-       minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="Money Out of Pocket Friday"  >Money spent out of pocket to be reinburshed (reason, client name and amount)<input type="text"minlength="0" maxlength="100" size="100"><br>
     </form><br>
 </div>
             
@@ -319,15 +290,12 @@
     
     <form action="/action_page.php">
         
-        <input type="checkbox" name="KM add on Saturday" value="in KM"> Car distance traveled in KM<br><input type="text" id="KM add on Saturday" name="in KM" minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="KM add on Saturday" > Car distance traveled in KM<input type="text" minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Overtime Saturday" value="in Hours"> Over Time Worked (In hours)<br>
-         <input type="text" id="Overtime Saturday" name="in Hours" 
-       minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="Overtime Saturday" value="in Hours"> Over Time Worked (In hours)
+         <input type="text" minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Money Out of Pocket Saturday" value="Dollars" > Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
-         <input type="text" id="Money Out of Pocket Saturday" name="Dollars" 
-       minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="Money Out of Pocket Saturday"  > Money spent out of pocket to be reinburshed (reason, client name and amount)<input type="text" minlength="0" maxlength="100" size="100"><br>
     </form><br>
 </div>
             
@@ -364,18 +332,11 @@
     
     <form action="/action_page.php">
         
-        <input type="checkbox" name="KM add on Sunday" value="in KM"> Car distance traveled in KM<br>
+        <input type="checkbox" name="KM add on Sunday" > Car distance traveled in KM<input type="text" minlength="0" maxlength="5" size="10"><br>
         
-        <input type="text" id="KM add on Sunday" name="in KM" 
-       minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="Overtime Sunday"> Over Time Worked (In hours) <input type="text"minlength="0" maxlength="5" size="10"><br>
         
-        <input type="checkbox" name="Overtime Sunday" value="in Hours"> Over Time Worked (In hours)<br>
-         <input type="text" id="Overtime Sunday" name="in Hours"
-       minlength="0" maxlength="5" size="10"><br>
-        
-        <input type="checkbox" name="Money Out of Pocket Sunday" value="Dollars" > Money spent out of pocket to be reinburshed (reason, client name and amount)<br>
-         <input type="text" id="Money Out of Pocket Sunday" name="Dollars" 
-       minlength="0" maxlength="5" size="10"><br>
+        <input type="checkbox" name="Money Out of Pocket Sunday"  > Money spent out of pocket to be reinburshed (reason, client name and amount)<input type="text" minlength="0" maxlength="100" size="100"><br>
     </form><br>
 </div>
             
