@@ -4,7 +4,115 @@
      box-sizing: border-box;
    
 }
+/*----------------This is all the design for the change password page*/
+.form-container3{
+    width: 30em;
+    height:auto;
+    padding:40px 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    margin: auto;
+}
 
+ul.list-change{
+    list-style-type: none;
+    text-align: center;   
+}
+
+ul.list-change p{
+    text-align: left;
+}
+
+ul.list-change li{
+    width:520px;
+    margin-bottom: 15px;
+    
+}
+
+ul.list-change li input{
+    width: 520px;
+    text-align: center;
+    padding: 10px 0px;
+    border: none;
+    background-color: #d3d3d3; 
+    border-radius: 5px;
+    padding-left: 2%;
+}
+
+ul.list-change li input[type="button"]{
+    background-color: teal;
+    color: white;
+    padding-left: 2%;
+}
+
+ul.list-change li:nth-child(5){
+    color: red;
+}
+
+.formhead1{
+    margin: 2%;
+    box-sizing: content-box;
+    height:70%;
+    color: aqua;
+}
+.formhead1 h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.formhead1 p{
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*----------------------------------Forgotten Password Page*/
+   .forgotten-password{
+    background-color: gainsboro;
+    padding: 5em;
+}
+.form-container2{
+    width: 25em;
+    height:auto;
+    padding:40px 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    margin: auto;
+}
+
+ul.flist{
+    list-style-type: none;
+    text-align: center;   
+}
+
+ul.flist li{
+    width:400px;
+    margin-bottom: 15px;
+}
+
+ul.flist li input{
+    width: 300px;
+    text-align: center;
+    padding: 8px 0px;
+    border: none;
+    background-color: #d3d3d3; 
+    border-radius: 5px;
+}
+
+ul.flist li input[type="button"]{
+    background-color: teal;
+    color: white;
+}
+
+ul.flist li:nth-child(5){
+    color: red;
+}
+ul.flist p{
+    text-align: left;
+}
 /*----------------This is all the design for the login page*/
 .loginpage{
     background-color: gainsboro;
@@ -12,7 +120,7 @@
 }
 
 .form-container1{
-    width: 17em;
+    width: 20em;
     height:auto;
     padding:40px 30px;
     background-color: white;
@@ -22,12 +130,11 @@
 }
 
 .company-logo img{
-    width: 75px;
-    height: 75px;
+    width: 80px;
+    height: 80px;
     background-size: 100%;
     position:absolute;
-    top:-30px;
-    left: 10px;  
+    top:-30px; 
     
 }
 
@@ -36,23 +143,30 @@ ul.list{
     text-align: center;   
 }
 
+ul.list p{
+    text-align: left;
+}
+
 ul.list li{
-    width:250px;
+    width:300px;
     margin-bottom: 15px;
+    padding-left: 2%;
 }
 
 ul.list li input{
-    width: 250px;
+    width: 300px;
     text-align: center;
     padding: 8px 0px;
     border: none;
     background-color: #d3d3d3; 
     border-radius: 5px;
+    padding-left: 2%;
 }
 
 ul.list li input[type="button"]{
     background-color: teal;
     color: white;
+    padding-left: 2%;
 }
 
 ul.list li:nth-child(5){
@@ -492,4 +606,8 @@ footer{
     .settings p{
         text-align: left;
         
+    }
+    
+    .settings {
+        padding: 10%;
     }

@@ -1,109 +1,52 @@
-<!-- The link used to help create this program for both CSS and HTML https://www.sololearn.com/Profile/868188 and also this bootstap type link was used to help create/ model the password form https://bootsnipp.com/snippets/8v4K-->
-
-<!-- The layout was the specific reasont this format was used as a basis. HTML and CSS have been changed to help functionality and purpose for this project-->
-
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset ="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-    <title>About me</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link rel=stylesheet type="text/css" href="main.css">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Roster</title>
+<link rel=stylesheet type="text/css" href="main.css">
 </head>
+    
 <body>
- 
-    <header>
-        <!-- The navigation for this site it located here-->
+
+    
+    
+    <!-- Input boxes link referance https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text -->
+    <!-- form link referance //http://www.informit.com/articles/article.aspx?p=30105&seqNum=6 ----->
+    
+<header>
+    <!-- The navigation for this site it located here-->
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="accordianform.html">Roster</a>
         <a href="profile3.html">Profile Page</a>
         <a href="contact.html">Contact</a>
-        <a href="settings.html">Settings</a>
+        <a href="settings.html">Change Password</a>
         <a href="index.html">Logout</a>
     </div>
-
 <!-- This javasctipy allows the three bars-->
-        <div class="mySidenav">  
+     <div class="mySidenav">  
     <span style="cursor:pointer" onclick="openNav()">&#9776; Menu</span>
     </div>
-<!-- The body of this page begins here for the profile content-->
     
-        <div class="formhead">
-        <h1> Settings</h1>
-        </div>   
-
-    </header><br>
-
-<div class="settings">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Change Password</h1>
-            </div>
+    <div class="formhead">
+        
+    <h1>Change Password</h1>
+        <p>Time to change your password? Dont worry its quick simple and easy! Just input your old password below along with the new password you would like it changed to. Once your done click submit.</p>
+    <p> Just a heads up; once you press submit you will be automatically logged out of the application. When you log in the next time please use your new password.</p>
         </div>
+</header><br><br><br>
+ <div class="form-container3">
         
-        <div class="row">
-            <div class="col-sm-6 col-sm-offset-3">
-                <p>To change your password please use the section below.</p>
-                <form method="post" id="passwordForm">
-                    <input type="password" class="input-lg form-control" name="password1" id="password1" placeholder="New Password" autocomplete="off"><br>
-                    <!-- commented out now as not needed for the MPV and still the code would need to be edited to fit the purpose of this app-->
-                   <!-- <div class="row">
-                       <!-- <div class="col-sm-6">
-                            <span id="8char" class="glyphicon glyphicon-remove" style="color:#FF0004;"></span> 8 Characters Long<br>
-                            <span id="ucase" class="glyphicon glyphicon-remove" style="color:#FF0004;"></span> One Uppercase Letter
-                        </div>
-                        <div class="col-sm-6">
-                            <span id="lcase" class="glyphicon glyphicon-remove" style="color:#FF0004;"></span> One Lowercase Letter<br>
-                            <span id="num" class="glyphicon glyphicon-remove" style="color:#FF0004;"></span> One Number
-                        </div>
-                    </div>-->
-                    <input type="password" class="input-lg form-control" name="password2" id="password2" placeholder="Repeat Password" autocomplete="off">
-                    <!-- commented out now as not needed for the MPV and still the code would need to be edited to fit the purpose of this app-->
-                  <!--  <div class="row">
-                        <div class="col-sm-12">
-                            <span id="pwmatch" class="glyphicon glyphicon-remove" style="color:#FF0004;"></span> Passwords Match
-                        </div>
-                    </div>--><br>
-                    <a href="accordianform.html"><input type="submit" class="col-xs-12 btn btn-primary btn-load btn-lg" data-loading-text="Changing Password..." value="Change Password"></a>
-                </form>
-            </div><!--/col-sm-6-->
-        </div><!--/row-->
-    </div>
-    
-    </div> <br><br><br><br><br><br><br><br><br>
-    
-    <!-- commented out now as not needed for the MPV and still the code would need to be edited to fit the purpose of this app-->
-    <!-- update password box
-          
-    <section class="main">
+        <!-- Sign up Area-->
+    <ul class="list-change"> 
+        <li><input type="text" name="User Name" placeholder="Old Password"></li>
+        <li><input type="text" name="....." placeholder=" New Password"></li>
+        <li><input type="text" name="....." placeholder=" Confirm Password"></li>
+        <a href="sucessfull.html"><li><input type="button" name="Submit" value="submit"></li></a>
         
-        <div class="box">
-            <p class="title"><i></i>Update Password</p>
-            <br>
-            
-            <div class="days">
-            <ul>
-                <li><b>Old Password: </b><input type="TEXT" size="20" name="Employee Number ">
-                </li>
-                <li><b>New Password:</b><input type="TEXT" size="20" name="Employee Number ">
-                </li>
-                <li><b>Retype Password:</b><input type="TEXT" size="20" name="Employee Number ">
-                </li> 
-            </ul>
-               <ul class="list">
-                   <a href="#"><li><input type="button" name="Submit" value="submit"></li></a>
-            </ul>
-            </div>  </div>
-    </section>
-    
-    <div class = "changeother">
-    <p
-    </div>-->
+        
+        </ul>
+      </div>  
+    <div><p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p></div>
     
             
 <footer> 
@@ -122,3 +65,5 @@
 </script>
 </body>
 </html>
+
+
