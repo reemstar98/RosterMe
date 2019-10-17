@@ -661,13 +661,19 @@ ul.list-change li:nth-child(5){
 }
 
     .stylebutton button{
-    width: 20%;
+    width: 30%;
     height: 50px;
     
 }
 
+    @media only screen and (max-width:400px){
 
-
+ .stylebutton button{
+    width: 30%;
+    height: 50px;
+    
+}
+    }
 /*----------------------------------Contact Page*/
 
 .contactinfo{
@@ -689,3 +695,4 @@ ul.list-change li:nth-child(5){
 .settings {
         padding: 10%;
     }
+}
